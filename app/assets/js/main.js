@@ -94,7 +94,11 @@
 				mirrorMesh.rotateX( - Math.PI / 2 );
 				scene.add( mirrorMesh );
     var currentTexture = 0;
-    var textures = ['black.jpg','silver.jpg','abstract.jpg','wall.jpg','metal.jpg','wood.jpg','blood.jpg', 'blue.jpg', 'mermer.jpg', 'minecraft.png','second.jpg', 'greenmarble.jpg','first.jpg','musema.jpg'];
+    var textures = [
+      'orange.jpg','strawberry.jpg','spiderman.jpg','goldore.jpg','choco.jpg','potato.jpg','black.jpg','silver.jpg','abstract.jpg','wall.jpg','metal.jpg','wood.jpg',
+      'blood.jpg', 'blue.jpg', 'mermer.jpg', 'minecraft.png','second.jpg', 'greenmarble.jpg','first.jpg',
+      'musema.jpg'
+    ];
     var mainTexture = textures[currentTexture];
     texture.needsUpdate = true;
     function changeTexture(){
